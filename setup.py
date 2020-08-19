@@ -14,8 +14,11 @@ setup(
     entry_points={
         'console_scripts': ['build = buildspider.cmd:cmd']
     },
+    install_requires=[
+        'scrapy'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-    ],
+    ]
 )
