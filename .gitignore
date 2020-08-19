@@ -1,7 +1,7 @@
-idea
-vscode
+/.idea
+/.vscode
 *.pyc
-build
-*.egg-info
-dist
+/build
+/*.egg-info
+/dist
 __pycache__
